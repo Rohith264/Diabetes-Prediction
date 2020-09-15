@@ -8,12 +8,12 @@ We will try to build a machine learning model to accurately predict whether or n
 Data
 The datasets consists of several medical predictor variables and one target variable, Outcome. Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
 
-Pregnancies: Number of times pregnant
-Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
-BloodPressure: Diastolic blood pressure (mm Hg)
-SkinThickness: Triceps skin fold thickness (mm)
-Insulin: 2-Hour serum insulin (mu U/ml)
-BMI: Body mass index (weight in kg/(height in m)^2)
-DiabetesPedigreeFunction: Diabetes pedigree function
-Age: Age (years)
-Outcome: Class variable (0 or 1)
+    "- A: Number of pregnancies\n",
+    "- B: Concentration of plasma glucose in a 2-hour oral glucose tolerance test\n",
+    "- C: Diastolic blood pressure - Measured in mmHg\n",
+    "- D: Triceps skin fold thickness - Measured in mm\n",
+    "- E: Insulin concentration in the serum in 2 hours. Measured in (mu U/ml)\n",
+    "- F: Weight in kg/height in (m^2)\n",
+    "- G: Function that assigns the probability of someone getting diabetes\n",
+    "- H: Age\n",
+    "- Target: Value of 0 or 1 corresponds to no diabetes and diabetes\n"
